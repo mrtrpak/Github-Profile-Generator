@@ -25,7 +25,7 @@ inquirer.prompt([
     axios.get(queryUrl).then(gitInfo => {
         fs.writeFile(username + ".md",
         "<h1 style='color:" + favColor + "'>" + gitInfo.data.name + "</h1>"
-        + "<img src=" + gitInfo.data.avatar_url + " style='width: 50px; height: 50px;'>"
+        + "<img src=" + gitInfo.data.avatar_url + " style='width: 100px; height: 100px;'>"
         + "<div>Bio: " + gitInfo.data.bio + "</div>"
         + "<div>Company: " + gitInfo.data.company + "</div>"
         + "<a href='" + gitInfo.data.html_url + "'>" + gitInfo.data.name + "'s Github Homepage</a>"
