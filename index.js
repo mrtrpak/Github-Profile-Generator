@@ -7,7 +7,7 @@ const fs = require("fs");
 inquirer.prompt([
     {
         type: "input",
-        message: "What is your Github username?",
+        message: "What is the Github username you are searching for?",
         name: "username"
     },
     {
