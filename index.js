@@ -25,14 +25,14 @@ inquirer.prompt([
     axios.get(queryUrl).then(gitInfo => {
         fs.writeFile(username + ".md",
         "<h1 style='color:" + favColor + "'>" + gitInfo.data.name + "</h1>"
-        + "<img src=" + gitInfo.data.avatar_url + " style='width: 100px; height: 100px;'>"
-        + "<div>Bio: " + gitInfo.data.bio + "</div>"
-        + "<div>Company: " + gitInfo.data.company + "</div>"
+        + "<img src=" + gitInfo.data.avatar_url + " style='width: 275px; height: 275px;'>"
+        + "<p>Bio: " + gitInfo.data.bio + "</p>"
+        + "<p>Company: " + gitInfo.data.company + "</p>"
         + "<a href='" + gitInfo.data.html_url + "'>" + gitInfo.data.name + "'s Github Homepage</a>"
-        + "<div>Public Repos: " + gitInfo.data.public_repos + "</div>"
-        + "<div>Followers: " + gitInfo.data.followers + "</div>"
-        + "<div>Following: " + gitInfo.data.following + "</div>"
-        + "<div>Location: " + gitInfo.data.location + "</div>",
+        + "<p>Public Repos: " + gitInfo.data.public_repos + "</p>"
+        + "<p>Followers: " + gitInfo.data.followers + "</p>"
+        + "<p>Following: " + gitInfo.data.following + "</p>"
+        + "<p>Location: " + gitInfo.data.location + "</p>",
         function(error) {
             if (error) {
                 return error;
