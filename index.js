@@ -33,7 +33,7 @@ inquirer.prompt([
         + "<p>Followers: " + gitInfo.data.followers + "</p>"
         + "<p>Following: " + gitInfo.data.following + "</p>"
         + "<p>Location: " + gitInfo.data.location + "</p>",
-        function(error) {
+        error => {
             if (error) {
                 return error;
             } else {
