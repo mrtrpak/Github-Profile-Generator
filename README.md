@@ -7,9 +7,9 @@ This application is designed so that a user is able to look up github accounts a
 In the terminal run the index.js to start. First the user will be prompted to enter a github username. Then the user will be prompted to choose their favorite color. Once they do and hit enter to run the app a md file will be generated. The name that appears on top will be in the color that they chose in the prompt. 
 
 ## Built With
-[axios](https://www.npmjs.com/package/axios) npm
-[inquirer](https://www.npmjs.com/package/inquirer) npm
-[fs](https://www.npmjs.com/package/fs) npm
+* [axios](https://www.npmjs.com/package/axios) - npm
+* [inquirer](https://www.npmjs.com/package/inquirer) - npm
+* [fs](https://www.npmjs.com/package/fs) - npm
 
 ## Gif and Photos
 A gif of how it runs in the terminal
