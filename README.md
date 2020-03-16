@@ -11,6 +11,11 @@ In the terminal run the index.js to start. First the user will be prompted to en
 * [inquirer](https://www.npmjs.com/package/inquirer) - npm
 * [fs](https://www.npmjs.com/package/fs) - npm
 
+- JQuery
+- Javascript
+- CSS
+- HTML
+
 ## Gif and Photos
 A gif of how it runs in the terminal
 
