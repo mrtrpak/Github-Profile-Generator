@@ -1,5 +1,11 @@
 # Github-Profile-Generator
 
+# Table of Contents
+
+- [Synopsis](@Synopsis)
+- [Getting Started](#Getting-Started)
+- [Built With](#Built-With)
+
 ## Synopsis
 This application is designed so that a user is able to look up github accounts and get an overview of their profile. In it the user can see the bio, repo information, and location of the github username they searched.
 
