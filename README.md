@@ -2,9 +2,11 @@
 
 # Table of Contents
 
-- [Synopsis](@Synopsis)
+- [Synopsis](#Synopsis)
 - [Getting Started](#Getting-Started)
 - [Built With](#Built-With)
+- [Gif](#Gif)
+- [Photo](#Photo)
 
 ## Synopsis
 This application is designed so that a user is able to look up github accounts and get an overview of their profile. In it the user can see the bio, repo information, and location of the github username they searched.
@@ -22,10 +24,12 @@ In the terminal run the index.js to start. First the user will be prompted to en
 - CSS
 - HTML
 
-## Gif and Photos
+## Gif
 A gif of how it runs in the terminal
 
 ![gif of application](/images/appDemo.gif)
+
+## Photo
 
 Photo of created file
 
