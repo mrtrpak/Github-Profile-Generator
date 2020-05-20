@@ -7,6 +7,7 @@
 - [Built With](#Built-With)
 - [Gif](#Gif)
 - [Photo](#Photo)
+- [License](#License)
 
 ## Synopsis
 This application is designed so that a user is able to look up github accounts and get an overview of their profile. In it the user can see the bio, repo information, and location of the github username they searched.
@@ -34,3 +35,7 @@ A gif of how it runs in the terminal
 Photo of created file
 
 ![app photo](/images/result.png)
+
+## License
+
+free to use
